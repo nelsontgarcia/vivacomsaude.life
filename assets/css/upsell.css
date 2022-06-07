@@ -1,0 +1,260 @@
+
+.offer-title {
+  color: #fff;
+  font-size: 2.8rem;
+}
+
+.atencao {
+    background-color: red;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.atencao-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.congrats {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.congrats-message {
+    color: green;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.congrats-message-message {
+    padding-top: 10px;
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+
+}
+
+.congrats-message-cta {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    color: #000;
+}
+
+.invert {
+    background-color: green;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.feature-left {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-right {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  max-height: 100px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  line-height: 2.4rem;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+
+.left {
+  align-items: end;
+}
+
+.right {
+  align-items: start;
+}
+
+.title {
+  color: black;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.left-body {
+  flex: 1;
+  flex-basis: 60%;
+}
+
+.right-body {
+  flex: 1;
+  flex-basis: 40%;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.off {
+    border-bottom: 0px;
+}
+
+.old-price {
+  color: red;
+  text-decoration: line-through;
+}
+
+.description {
+  color: #000;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-left: 10px;
+}
+
+.text-description {
+    color: #000;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 20px;
+}
+
+.vzin {
+  height: 25px;
+  width: 25px;
+}
+
+.cta {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.preco-cta {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.preco-cta-text {
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.preco-cta-value {
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    text-decoration: underline;
+    color: green;
+}
+
+.preco-cta-showoff {
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.desconto {
+    background-color: green;
+    color: #fff;
+}
+
+.pzb {
+    background-color: #8E43AD;
+    color: #fff;
+}
+
+.down-unique {
+    background-color: #000;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.down-unique-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: green;
+}
+
+.down-message {
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.top10 {
+    margin-top: 10px;
+}
+
+.whatyouget {
+    color: green;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-bottom: 25px;
+}
+
+.atencao-final {
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+@media screen and (max-width: 420px) {
+  .feature-left .title {
+    color: black;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+
+  .left {
+      align-items: start;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+  .feature-left {
+      flex-direction: column;
+  }
+  .feature-right {
+      flex-direction: column;
+  }
+}
